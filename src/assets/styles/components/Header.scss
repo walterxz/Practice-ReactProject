@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+
+    &__img {
+        width: 200px;
+        margin: 10px0010px;
+    }
+    &__menu {
+        margin-right: 30px;
+
+        &ul {
+            display: none;
+            list-style: none;
+            padding: 0px;
+            position: absolute;
+            width: 100px;
+            text-align: right;
+            margin: 000 -14px;
+
+            &:hover {
+                display: block;
+            }
+        }
+        
+        &:hoverul {
+            display: block;
+        }
+
+        &li {
+            margin: 10px0;
+
+            &a {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &--profile {
+            margin-right: 8px;
+            display: flex;
+
+            &img {
+                margin-right: 8px;
+            }
+
+            &p {
+                margin: 0;
+                color: white;
+            }
+        }
+    }
+}
